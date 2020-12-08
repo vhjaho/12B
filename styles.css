@@ -3,6 +3,7 @@ form {
 	border: solid black 2px;
 	background-color: LightGray;
 	margin: 15px;
+	box-shadow: 10px 10px 8px #888888;
 }
 
 .puu {
