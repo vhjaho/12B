@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+	<head>
+		<title>tehtävä 12</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">Homepage</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="sivu1.html">Top 3 trees!</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="sivu2.html">Questions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sivu3.html">Contact info</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+				<form action="#">
+				<fieldset>
+					<legend>Personal Information</legend>
+					<label for="etunimi">First Name:</label>
+					<input type="text" id="etunimi" name="etunimi" value="Insert your first name" required>
+					<br><br>
+					<label for="sukunimi">Last Name:</label>
+					<input type="text" id="sukunimi" name="sukunimi" required>
+					<br><br>
+					<label for="sposti">E-mail address:</label>
+					<input type="email" id="sposti" name="sposti" required>
+					<br><br>
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend>Leave your questions here</legend>
+					<label for="owntextarea">Text area(80x4):</label><br>
+					<textarea id="owntextarea" name="owntextarea" rows="4" cols="80"></textarea><br>
+					
+					<label for="lisatietoja">I want additional information:</label>
+					<input type="checkbox" id="lisatietoja" name="lisätietoja"><br>
+					
+					<label for="trees">What is your favorite kind of tree?:</label><br>
+					<select id="trees" name="trees">
+						<option value="tree1">Spruce</option>
+						<option value="tree2">Birch</option>
+						<option value="tree3">Pine</option>
+						<option value="tree4">Something else</option>
+					</select>
+				</fieldset>
+				<br><br>
+				<input type="submit" value="Add new user">
+			</form>
+	
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
