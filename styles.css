@@ -75,3 +75,7 @@ div.desc {
 	width: 250px;
   }
 
+.otsikko {
+	text-align: center;
+	font-family: trebuchet;
+}
